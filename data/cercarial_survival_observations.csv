@@ -1,0 +1,85 @@
+#---
+#profile: tabular-data-package
+#name: cercarial_survival
+#title: Temperature-specific survival of Schistosoma cercariae
+#source: Lawson, J. R. & Wilson, R. A. The survival of the cercariae of Schistosoma
+#  mansoni in relation to water temperature and glycogen utilization. Parasitology
+#  81, 337-348, doi:10.1017/s0031182000056079 (1980)
+#path: https://github.com/pboesu/schistosomiasis
+#fields:
+#- name: temperature
+#  type: number
+#- name: variable
+#  type: string
+#- name: value
+#  type: number
+#- name: time
+#  type: number
+#- name: time_unit
+#  type: string
+#- name: replicates
+#  type: number
+#- name: source
+#  type: string
+#--- 
+temperature,variable,value,time,time_unit,replicates,source
+10,Mean % Survival,99.964584,3.1864758,hours,5,Lawson1980
+10,Mean % Survival,93.77557,6.1012034,hours,5,Lawson1980
+10,Mean % Survival,84.27958,9.341938,hours,5,Lawson1980
+10,Mean % Survival,70.76002,9.873106,hours,5,Lawson1980
+10,Mean % Survival,63.97663,12.235206,hours,5,Lawson1980
+10,Mean % Survival,51.352993,13.209115,hours,5,Lawson1980
+10,Mean % Survival,53.852703,17.90257,hours,5,Lawson1980
+10,Mean % Survival,45.999634,21.918217,hours,5,Lawson1980
+10,Mean % Survival,52.292194,23.141577,hours,5,Lawson1980
+10,Mean % Survival,48.649494,26.6119,hours,5,Lawson1980
+10,Mean % Survival,58.206173,31.316088,hours,5,Lawson1980
+10,Mean % Survival,51.556156,35.168045,hours,5,Lawson1980
+15,Mean % Survival,100.04687,3.167632,hours,5,Lawson1980
+15,Mean % Survival,96.42075,5.7195306,hours,5,Lawson1980
+15,Mean % Survival,91.67784,8.980387,hours,5,Lawson1980
+15,Mean % Survival,88.309494,9.832941,hours,5,Lawson1980
+15,Mean % Survival,84.9561,11.747429,hours,5,Lawson1980
+15,Mean % Survival,88.639046,13.230878,hours,5,Lawson1980
+15,Mean % Survival,75.1816,17.773825,hours,5,Lawson1980
+15,Mean % Survival,74.95675,21.809422,hours,5,Lawson1980
+15,Mean % Survival,62.862896,23.165314,hours,5,Lawson1980
+15,Mean % Survival,62.91475,26.846684,hours,5,Lawson1980
+15,Mean % Survival,48.60824,31.107199,hours,5,Lawson1980
+15,Mean % Survival,38.52014,34.868385,hours,5,Lawson1980
+20,Mean % Survival,94.08671,2.4431555,hours,5,Lawson1980
+20,Mean % Survival,87.044426,5.273706,hours,5,Lawson1980
+20,Mean % Survival,94.12956,8.512103,hours,5,Lawson1980
+20,Mean % Survival,88.218216,11.480108,hours,5,Lawson1980
+20,Mean % Survival,76.92738,12.72624,hours,5,Lawson1980
+20,Mean % Survival,75.265076,17.34763,hours,5,Lawson1980
+20,Mean % Survival,65.12271,21.213968,hours,5,Lawson1980
+20,Mean % Survival,37.16351,22.26022,hours,5,Lawson1980
+20,Mean % Survival,14.870664,25.648912,hours,5,Lawson1980
+20,Mean % Survival,5.301071,30.618458,hours,5,Lawson1980
+20,Mean % Survival,3.635354,34.75709,hours,5,Lawson1980
+25,Mean % Survival,96.63364,2.3176427,hours,5,Lawson1980
+25,Mean % Survival,96.392395,5.286053,hours,5,Lawson1980
+25,Mean % Survival,97.286285,8.394806,hours,5,Lawson1980
+25,Mean % Survival,91.06807,9.389687,hours,5,Lawson1980
+25,Mean % Survival,87.98198,11.512548,hours,5,Lawson1980
+25,Mean % Survival,84.317314,12.787864,hours,5,Lawson1980
+25,Mean % Survival,46.14114,17.5565,hours,5,Lawson1980
+25,Mean % Survival,22.685686,21.605444,hours,5,Lawson1980
+25,Mean % Survival,14.487488,22.814085,hours,5,Lawson1980
+25,Mean % Survival,3.2052052,26.286926,hours,5,Lawson1980
+30,Mean % Survival,99.10671,2.5259342,hours,5,Lawson1980
+30,Mean % Survival,88.3704,5.4626975,hours,5,Lawson1980
+30,Mean % Survival,64.71274,8.383221,hours,5,Lawson1980
+30,Mean % Survival,62.16875,9.134741,hours,5,Lawson1980
+30,Mean % Survival,35.965656,12.875392,hours,5,Lawson1980
+30,Mean % Survival,11.159828,16.960854,hours,5,Lawson1980
+30,Mean % Survival,1.8019928,21.13434,hours,5,Lawson1980
+35,Mean % Survival,92.73743,1.840708,hours,5,Lawson1980
+35,Mean % Survival,85.19553,4.8141594,hours,5,Lawson1980
+35,Mean % Survival,45.810055,8.212389,hours,5,Lawson1980
+35,Mean % Survival,15.642458,8.707965,hours,5,Lawson1980
+35,Mean % Survival,10.055866,10.973452,hours,5,Lawson1980
+35,Mean % Survival,-0.2793296,12.743362,hours,5,Lawson1980
+40,Mean % Survival,56.33194,2.0091412,hours,5,Lawson1980
+40,Mean % Survival,1.8800511,4.8466744,hours,5,Lawson1980

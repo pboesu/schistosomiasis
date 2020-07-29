@@ -1,0 +1,62 @@
+#---
+#profile: tabular-data-package
+#name: trait_observations
+#title: Temperature-specific observations of various Schistosoma mansoni and Biomphalaria
+#  traits
+#path: https://github.com/pboesu/schistosomiasis
+#author: K.H. Nguyen, P.H. Boersch-Supan, V.J. Harwood, J.R. Rohr
+#fields:
+#- name: temperature
+#  type: number
+#- name: variable
+#  type: string
+#- name: value
+#  type: number
+#- name: parameter_type
+#  type: string
+#- name: source
+#  type: string
+#  levels:
+#  - Anderson1982
+#  - El-Hassan1974
+#  - El-Hassan1974,Foster1964
+#  - Mangal2008
+#  - Nguyen2020
+#--- 
+temperature,variable,value,parameter_type,source
+10,mu_2,0.007525751,raw,"El-Hassan1974,Foster1964"
+15,mu_2,0.012453813,raw,"El-Hassan1974,Foster1964"
+20,mu_2,0.007525751,raw,"El-Hassan1974,Foster1964"
+22.85,mu_2,0.0031,raw,"El-Hassan1974,Foster1964"
+24,mu_2,0.0033,raw,"El-Hassan1974,Foster1964"
+25,mu_2,0.005955829,raw,"El-Hassan1974,Foster1964"
+26,mu_2,0.0039,raw,"El-Hassan1974,Foster1964"
+28,mu_2,0.0085,raw,"El-Hassan1974,Foster1964"
+30,mu_2,0.015938825,raw,"El-Hassan1974,Foster1964"
+35,mu_2,0.036487545,raw,"El-Hassan1974,Foster1964"
+5,mu_3,4.9,raw,Anderson1982
+10,mu_3,2.18,raw,Anderson1982
+15,mu_3,1.5,raw,Anderson1982
+20,mu_3,2,raw,Anderson1982
+25,mu_3,2.53,raw,Anderson1982
+30,mu_3,4.36,raw,Anderson1982
+35,mu_3,4.44,raw,Anderson1982
+20,beta_2,0.000127,raw,Mangal2008
+25,beta_2,9.1e-05,raw,Mangal2008
+30,beta_2,0.0014,raw,Mangal2008
+35,beta_2,0.0012,raw,Mangal2008
+10,mu_4,0.948959088962855,raw,Nguyen2020
+15,mu_4,0.793575683527445,raw,Nguyen2020
+20,mu_4,1.28021985100461,raw,Nguyen2020
+25,mu_4,1.41744941968857,raw,Nguyen2020
+30,mu_4,2.27321792608069,raw,Nguyen2020
+35,mu_4,3.93538319156507,raw,Nguyen2020
+40,mu_4,11.9388612780957,raw,Nguyen2020
+10,a_s,0,raw,El-Hassan1974
+12.5,a_s,3,raw,El-Hassan1974
+15,a_s,10,raw,El-Hassan1974
+20,a_s,40,raw,El-Hassan1974
+25,a_s,51,raw,El-Hassan1974
+28,a_s,14,raw,El-Hassan1974
+30,a_s,3,raw,El-Hassan1974
+35,a_s,0,raw,El-Hassan1974

@@ -1,0 +1,454 @@
+#---
+#profile: tabular-data-package
+#name: shedding
+#title: Temperature-specific shedding success of Schistosoma mansoni cercaria from
+#  Biomphalaria glabrata snails
+#author: K.H. Nguyen, P.H. Boersch-Supan, V.J. Harwood, J.R. Rohr
+#path: https://github.com/pboesu/schistosomiasis
+#fields:
+#- name: temperature
+#  type: number
+#- name: variable
+#  type: string
+#- name: snail_id
+#  type: string
+#  levels:
+#  - '1'
+#  - '10'
+#  - '101'
+#  - '102'
+#  - '103'
+#  - '105'
+#  - '107'
+#  - '108'
+#  - '109'
+#  - '11'
+#  - '110'
+#  - '111'
+#  - '112'
+#  - '113'
+#  - '114'
+#  - '116'
+#  - '117'
+#  - '12'
+#  - '120'
+#  - '121'
+#  - '122'
+#  - '123'
+#  - '125'
+#  - '127'
+#  - '13'
+#  - '130'
+#  - '131'
+#  - '133'
+#  - '134'
+#  - '135'
+#  - '136'
+#  - '138'
+#  - '14'
+#  - '140'
+#  - '142'
+#  - '143'
+#  - '145'
+#  - '146'
+#  - '147'
+#  - '148'
+#  - '150'
+#  - '153'
+#  - '154'
+#  - '155'
+#  - '158'
+#  - '159'
+#  - '16'
+#  - '160'
+#  - '161'
+#  - '162'
+#  - '166'
+#  - '170'
+#  - '173'
+#  - '18'
+#  - '20'
+#  - '21'
+#  - '25'
+#  - '26'
+#  - '28'
+#  - '29'
+#  - '3'
+#  - '31'
+#  - '32'
+#  - '36'
+#  - '38'
+#  - '39'
+#  - '4'
+#  - '42'
+#  - '43'
+#  - '45'
+#  - '47'
+#  - '49'
+#  - '5'
+#  - '52'
+#  - '53'
+#  - '54'
+#  - '55'
+#  - '57'
+#  - '6'
+#  - '60'
+#  - '62'
+#  - '64'
+#  - '65'
+#  - '70'
+#  - '71'
+#  - '72'
+#  - '73'
+#  - '74'
+#  - '75'
+#  - '76'
+#  - '77'
+#  - '78'
+#  - '79'
+#  - '8'
+#  - '80'
+#  - '81'
+#  - '84'
+#  - '85'
+#  - '88'
+#  - '89'
+#  - '9'
+#  - '90'
+#  - '92'
+#  - '94'
+#  - '97'
+#  - '98'
+#  - '99'
+#- name: replicate_id
+#  type: string
+#- name: value
+#  type: number
+#- name: source
+#  type: string
+#--- 
+temperature,variable,snail_id,replicate_id,value,source
+5,cercariae_count_2h,14,First,0,Nguyen2020
+5,cercariae_count_2h,26,First,0,Nguyen2020
+5,cercariae_count_2h,42,First,0,Nguyen2020
+5,cercariae_count_2h,77,First,0,Nguyen2020
+5,cercariae_count_2h,78,First,0,Nguyen2020
+5,cercariae_count_2h,97,First,0,Nguyen2020
+5,cercariae_count_2h,113,First,0,Nguyen2020
+5,cercariae_count_2h,121,First,0,Nguyen2020
+5,cercariae_count_2h,140,First,0,Nguyen2020
+5,cercariae_count_2h,155,First,0,Nguyen2020
+5,cercariae_count_2h,158,First,0,Nguyen2020
+5,cercariae_count_2h,161,First,0,Nguyen2020
+9,cercariae_count_2h,4,First,0,Nguyen2020
+9,cercariae_count_2h,10,First,0,Nguyen2020
+9,cercariae_count_2h,13,First,0,Nguyen2020
+9,cercariae_count_2h,29,First,0,Nguyen2020
+9,cercariae_count_2h,38,First,0,Nguyen2020
+9,cercariae_count_2h,88,First,0,Nguyen2020
+9,cercariae_count_2h,107,First,0,Nguyen2020
+9,cercariae_count_2h,112,First,0,Nguyen2020
+9,cercariae_count_2h,122,First,0,Nguyen2020
+9,cercariae_count_2h,153,First,164,Nguyen2020
+9,cercariae_count_2h,166,First,0,Nguyen2020
+9,cercariae_count_2h,170,First,0,Nguyen2020
+13,cercariae_count_2h,32,First,0,Nguyen2020
+13,cercariae_count_2h,53,First,324,Nguyen2020
+13,cercariae_count_2h,54,First,0,Nguyen2020
+13,cercariae_count_2h,71,First,0,Nguyen2020
+13,cercariae_count_2h,79,First,192,Nguyen2020
+13,cercariae_count_2h,94,First,164,Nguyen2020
+13,cercariae_count_2h,99,First,396,Nguyen2020
+13,cercariae_count_2h,105,First,0,Nguyen2020
+13,cercariae_count_2h,109,First,0,Nguyen2020
+13,cercariae_count_2h,146,First,0,Nguyen2020
+13,cercariae_count_2h,159,First,0,Nguyen2020
+17,cercariae_count_2h,16,First,0,Nguyen2020
+17,cercariae_count_2h,21,First,116,Nguyen2020
+17,cercariae_count_2h,43,First,140,Nguyen2020
+17,cercariae_count_2h,45,First,320,Nguyen2020
+17,cercariae_count_2h,49,First,24,Nguyen2020
+17,cercariae_count_2h,90,First,180,Nguyen2020
+17,cercariae_count_2h,111,First,0,Nguyen2020
+17,cercariae_count_2h,135,First,0,Nguyen2020
+17,cercariae_count_2h,138,First,0,Nguyen2020
+17,cercariae_count_2h,147,First,124,Nguyen2020
+17,cercariae_count_2h,160,First,104,Nguyen2020
+17,cercariae_count_2h,173,First,260,Nguyen2020
+17,cercariae_count_2h,173,First,260,Nguyen2020
+21,cercariae_count_2h,5,First,660,Nguyen2020
+21,cercariae_count_2h,25,First,4,Nguyen2020
+21,cercariae_count_2h,39,First,0,Nguyen2020
+21,cercariae_count_2h,60,First,848,Nguyen2020
+21,cercariae_count_2h,75,First,388,Nguyen2020
+21,cercariae_count_2h,76,First,0,Nguyen2020
+21,cercariae_count_2h,84,First,672,Nguyen2020
+21,cercariae_count_2h,101,First,476,Nguyen2020
+21,cercariae_count_2h,133,First,0,Nguyen2020
+21,cercariae_count_2h,145,First,100,Nguyen2020
+21,cercariae_count_2h,154,First,272,Nguyen2020
+21,cercariae_count_2h,162,First,304,Nguyen2020
+25,cercariae_count_2h,1,First,0,Nguyen2020
+25,cercariae_count_2h,11,First,788,Nguyen2020
+25,cercariae_count_2h,12,First,0,Nguyen2020
+25,cercariae_count_2h,20,First,472,Nguyen2020
+25,cercariae_count_2h,52,First,0,Nguyen2020
+25,cercariae_count_2h,74,First,0,Nguyen2020
+25,cercariae_count_2h,80,First,1004,Nguyen2020
+25,cercariae_count_2h,89,First,1548,Nguyen2020
+25,cercariae_count_2h,98,First,404,Nguyen2020
+25,cercariae_count_2h,108,First,432,Nguyen2020
+25,cercariae_count_2h,114,First,0,Nguyen2020
+25,cercariae_count_2h,125,First,1348,Nguyen2020
+29,cercariae_count_2h,3,First,0,Nguyen2020
+29,cercariae_count_2h,8,First,0,Nguyen2020
+29,cercariae_count_2h,47,First,0,Nguyen2020
+29,cercariae_count_2h,64,First,344,Nguyen2020
+29,cercariae_count_2h,65,First,812,Nguyen2020
+29,cercariae_count_2h,85,First,0,Nguyen2020
+29,cercariae_count_2h,110,First,1132,Nguyen2020
+29,cercariae_count_2h,117,First,1664,Nguyen2020
+29,cercariae_count_2h,120,First,772,Nguyen2020
+29,cercariae_count_2h,131,First,536,Nguyen2020
+29,cercariae_count_2h,134,First,812,Nguyen2020
+29,cercariae_count_2h,143,First,812,Nguyen2020
+33,cercariae_count_2h,36,First,476,Nguyen2020
+33,cercariae_count_2h,55,First,0,Nguyen2020
+33,cercariae_count_2h,57,First,16,Nguyen2020
+33,cercariae_count_2h,70,First,692,Nguyen2020
+33,cercariae_count_2h,72,First,0,Nguyen2020
+33,cercariae_count_2h,102,First,1660,Nguyen2020
+33,cercariae_count_2h,116,First,760,Nguyen2020
+33,cercariae_count_2h,123,First,4,Nguyen2020
+33,cercariae_count_2h,127,First,2192,Nguyen2020
+33,cercariae_count_2h,130,First,1020,Nguyen2020
+33,cercariae_count_2h,142,First,616,Nguyen2020
+33,cercariae_count_2h,148,First,292,Nguyen2020
+37,cercariae_count_2h,6,First,0,Nguyen2020
+37,cercariae_count_2h,9,First,0,Nguyen2020
+37,cercariae_count_2h,18,First,0,Nguyen2020
+37,cercariae_count_2h,28,First,412,Nguyen2020
+37,cercariae_count_2h,31,First,0,Nguyen2020
+37,cercariae_count_2h,62,First,216,Nguyen2020
+37,cercariae_count_2h,73,First,0,Nguyen2020
+37,cercariae_count_2h,81,First,268,Nguyen2020
+37,cercariae_count_2h,92,First,384,Nguyen2020
+37,cercariae_count_2h,103,First,0,Nguyen2020
+37,cercariae_count_2h,136,First,1016,Nguyen2020
+37,cercariae_count_2h,150,First,764,Nguyen2020
+5,cercariae_count_2h,14,Second,0,Nguyen2020
+5,cercariae_count_2h,26,Second,0,Nguyen2020
+5,cercariae_count_2h,42,Second,0,Nguyen2020
+5,cercariae_count_2h,77,Second,0,Nguyen2020
+5,cercariae_count_2h,78,Second,0,Nguyen2020
+5,cercariae_count_2h,97,Second,0,Nguyen2020
+5,cercariae_count_2h,113,Second,0,Nguyen2020
+5,cercariae_count_2h,121,Second,0,Nguyen2020
+5,cercariae_count_2h,140,Second,0,Nguyen2020
+5,cercariae_count_2h,155,Second,0,Nguyen2020
+5,cercariae_count_2h,158,Second,0,Nguyen2020
+5,cercariae_count_2h,161,Second,0,Nguyen2020
+9,cercariae_count_2h,4,Second,0,Nguyen2020
+9,cercariae_count_2h,10,Second,0,Nguyen2020
+9,cercariae_count_2h,13,Second,0,Nguyen2020
+9,cercariae_count_2h,29,Second,0,Nguyen2020
+9,cercariae_count_2h,38,Second,0,Nguyen2020
+9,cercariae_count_2h,88,Second,0,Nguyen2020
+9,cercariae_count_2h,107,Second,0,Nguyen2020
+9,cercariae_count_2h,112,Second,0,Nguyen2020
+9,cercariae_count_2h,122,Second,0,Nguyen2020
+9,cercariae_count_2h,153,Second,0,Nguyen2020
+9,cercariae_count_2h,166,Second,0,Nguyen2020
+9,cercariae_count_2h,170,Second,0,Nguyen2020
+13,cercariae_count_2h,32,Second,0,Nguyen2020
+13,cercariae_count_2h,53,Second,40,Nguyen2020
+13,cercariae_count_2h,54,Second,0,Nguyen2020
+13,cercariae_count_2h,71,Second,0,Nguyen2020
+13,cercariae_count_2h,79,Second,0,Nguyen2020
+13,cercariae_count_2h,94,Second,20,Nguyen2020
+13,cercariae_count_2h,99,Second,60,Nguyen2020
+13,cercariae_count_2h,105,Second,0,Nguyen2020
+13,cercariae_count_2h,109,Second,0,Nguyen2020
+13,cercariae_count_2h,146,Second,0,Nguyen2020
+13,cercariae_count_2h,159,Second,0,Nguyen2020
+17,cercariae_count_2h,16,Second,0,Nguyen2020
+17,cercariae_count_2h,21,Second,60,Nguyen2020
+17,cercariae_count_2h,43,Second,336,Nguyen2020
+17,cercariae_count_2h,45,Second,516,Nguyen2020
+17,cercariae_count_2h,49,Second,0,Nguyen2020
+17,cercariae_count_2h,90,Second,212,Nguyen2020
+17,cercariae_count_2h,111,Second,0,Nguyen2020
+17,cercariae_count_2h,135,Second,0,Nguyen2020
+17,cercariae_count_2h,138,Second,0,Nguyen2020
+17,cercariae_count_2h,147,Second,172,Nguyen2020
+17,cercariae_count_2h,160,Second,40,Nguyen2020
+17,cercariae_count_2h,173,Second,484,Nguyen2020
+17,cercariae_count_2h,173,Second,484,Nguyen2020
+21,cercariae_count_2h,5,Second,596,Nguyen2020
+21,cercariae_count_2h,25,Second,12,Nguyen2020
+21,cercariae_count_2h,39,Second,0,Nguyen2020
+21,cercariae_count_2h,60,Second,1232,Nguyen2020
+21,cercariae_count_2h,75,Second,80,Nguyen2020
+21,cercariae_count_2h,76,Second,0,Nguyen2020
+21,cercariae_count_2h,84,Second,720,Nguyen2020
+21,cercariae_count_2h,101,Second,884,Nguyen2020
+21,cercariae_count_2h,133,Second,12,Nguyen2020
+21,cercariae_count_2h,145,Second,136,Nguyen2020
+21,cercariae_count_2h,154,Second,168,Nguyen2020
+21,cercariae_count_2h,162,Second,376,Nguyen2020
+25,cercariae_count_2h,1,Second,0,Nguyen2020
+25,cercariae_count_2h,11,Second,1212,Nguyen2020
+25,cercariae_count_2h,12,Second,0,Nguyen2020
+25,cercariae_count_2h,20,Second,1656,Nguyen2020
+25,cercariae_count_2h,52,Second,0,Nguyen2020
+25,cercariae_count_2h,74,Second,0,Nguyen2020
+25,cercariae_count_2h,80,Second,716,Nguyen2020
+25,cercariae_count_2h,89,Second,1164,Nguyen2020
+25,cercariae_count_2h,98,Second,412,Nguyen2020
+25,cercariae_count_2h,108,Second,572,Nguyen2020
+25,cercariae_count_2h,114,Second,0,Nguyen2020
+25,cercariae_count_2h,125,Second,704,Nguyen2020
+29,cercariae_count_2h,3,Second,4,Nguyen2020
+29,cercariae_count_2h,8,Second,8,Nguyen2020
+29,cercariae_count_2h,47,Second,0,Nguyen2020
+29,cercariae_count_2h,64,Second,104,Nguyen2020
+29,cercariae_count_2h,65,Second,492,Nguyen2020
+29,cercariae_count_2h,85,Second,0,Nguyen2020
+29,cercariae_count_2h,110,Second,508,Nguyen2020
+29,cercariae_count_2h,117,Second,408,Nguyen2020
+29,cercariae_count_2h,120,Second,224,Nguyen2020
+29,cercariae_count_2h,131,Second,296,Nguyen2020
+29,cercariae_count_2h,134,Second,468,Nguyen2020
+29,cercariae_count_2h,143,Second,108,Nguyen2020
+33,cercariae_count_2h,36,Second,504,Nguyen2020
+33,cercariae_count_2h,55,Second,0,Nguyen2020
+33,cercariae_count_2h,57,Second,0,Nguyen2020
+33,cercariae_count_2h,70,Second,172,Nguyen2020
+33,cercariae_count_2h,72,Second,0,Nguyen2020
+33,cercariae_count_2h,102,Second,212,Nguyen2020
+33,cercariae_count_2h,116,Second,88,Nguyen2020
+33,cercariae_count_2h,123,Second,0,Nguyen2020
+33,cercariae_count_2h,127,Second,344,Nguyen2020
+33,cercariae_count_2h,130,Second,292,Nguyen2020
+33,cercariae_count_2h,142,Second,76,Nguyen2020
+33,cercariae_count_2h,148,Second,0,Nguyen2020
+37,cercariae_count_2h,6,Second,0,Nguyen2020
+37,cercariae_count_2h,9,Second,0,Nguyen2020
+37,cercariae_count_2h,18,Second,0,Nguyen2020
+37,cercariae_count_2h,28,Second,88,Nguyen2020
+37,cercariae_count_2h,31,Second,0,Nguyen2020
+37,cercariae_count_2h,62,Second,84,Nguyen2020
+37,cercariae_count_2h,73,Second,0,Nguyen2020
+37,cercariae_count_2h,81,Second,80,Nguyen2020
+37,cercariae_count_2h,92,Second,132,Nguyen2020
+37,cercariae_count_2h,103,Second,0,Nguyen2020
+37,cercariae_count_2h,136,Second,56,Nguyen2020
+37,cercariae_count_2h,150,Second,256,Nguyen2020
+5,cercariae_count_2h,14,Third,0,Nguyen2020
+5,cercariae_count_2h,26,Third,0,Nguyen2020
+5,cercariae_count_2h,42,Third,0,Nguyen2020
+5,cercariae_count_2h,77,Third,0,Nguyen2020
+5,cercariae_count_2h,78,Third,0,Nguyen2020
+5,cercariae_count_2h,97,Third,0,Nguyen2020
+5,cercariae_count_2h,113,Third,0,Nguyen2020
+5,cercariae_count_2h,121,Third,0,Nguyen2020
+5,cercariae_count_2h,140,Third,0,Nguyen2020
+5,cercariae_count_2h,155,Third,0,Nguyen2020
+5,cercariae_count_2h,158,Third,0,Nguyen2020
+5,cercariae_count_2h,161,Third,0,Nguyen2020
+9,cercariae_count_2h,4,Third,0,Nguyen2020
+9,cercariae_count_2h,10,Third,0,Nguyen2020
+9,cercariae_count_2h,13,Third,0,Nguyen2020
+9,cercariae_count_2h,29,Third,0,Nguyen2020
+9,cercariae_count_2h,38,Third,0,Nguyen2020
+9,cercariae_count_2h,88,Third,0,Nguyen2020
+9,cercariae_count_2h,107,Third,0,Nguyen2020
+9,cercariae_count_2h,112,Third,0,Nguyen2020
+9,cercariae_count_2h,122,Third,0,Nguyen2020
+9,cercariae_count_2h,153,Third,0,Nguyen2020
+9,cercariae_count_2h,166,Third,0,Nguyen2020
+9,cercariae_count_2h,170,Third,0,Nguyen2020
+13,cercariae_count_2h,32,Third,0,Nguyen2020
+13,cercariae_count_2h,53,Third,128,Nguyen2020
+13,cercariae_count_2h,54,Third,0,Nguyen2020
+13,cercariae_count_2h,71,Third,0,Nguyen2020
+13,cercariae_count_2h,79,Third,0,Nguyen2020
+13,cercariae_count_2h,94,Third,132,Nguyen2020
+13,cercariae_count_2h,99,Third,88,Nguyen2020
+13,cercariae_count_2h,105,Third,0,Nguyen2020
+13,cercariae_count_2h,109,Third,0,Nguyen2020
+13,cercariae_count_2h,146,Third,0,Nguyen2020
+13,cercariae_count_2h,159,Third,0,Nguyen2020
+17,cercariae_count_2h,16,Third,4,Nguyen2020
+17,cercariae_count_2h,21,Third,672,Nguyen2020
+17,cercariae_count_2h,43,Third,436,Nguyen2020
+17,cercariae_count_2h,45,Third,1200,Nguyen2020
+17,cercariae_count_2h,49,Third,0,Nguyen2020
+17,cercariae_count_2h,90,Third,444,Nguyen2020
+17,cercariae_count_2h,111,Third,0,Nguyen2020
+17,cercariae_count_2h,135,Third,0,Nguyen2020
+17,cercariae_count_2h,138,Third,0,Nguyen2020
+17,cercariae_count_2h,147,Third,404,Nguyen2020
+17,cercariae_count_2h,160,Third,0,Nguyen2020
+17,cercariae_count_2h,173,Third,928,Nguyen2020
+17,cercariae_count_2h,173,Third,928,Nguyen2020
+21,cercariae_count_2h,5,Third,552,Nguyen2020
+21,cercariae_count_2h,25,Third,0,Nguyen2020
+21,cercariae_count_2h,39,Third,0,Nguyen2020
+21,cercariae_count_2h,60,Third,788,Nguyen2020
+21,cercariae_count_2h,75,Third,280,Nguyen2020
+21,cercariae_count_2h,76,Third,0,Nguyen2020
+21,cercariae_count_2h,84,Third,504,Nguyen2020
+21,cercariae_count_2h,101,Third,984,Nguyen2020
+21,cercariae_count_2h,133,Third,0,Nguyen2020
+21,cercariae_count_2h,145,Third,136,Nguyen2020
+21,cercariae_count_2h,154,Third,288,Nguyen2020
+21,cercariae_count_2h,162,Third,420,Nguyen2020
+25,cercariae_count_2h,1,Third,0,Nguyen2020
+25,cercariae_count_2h,11,Third,1148,Nguyen2020
+25,cercariae_count_2h,12,Third,0,Nguyen2020
+25,cercariae_count_2h,20,Third,748,Nguyen2020
+25,cercariae_count_2h,52,Third,0,Nguyen2020
+25,cercariae_count_2h,74,Third,0,Nguyen2020
+25,cercariae_count_2h,80,Third,592,Nguyen2020
+25,cercariae_count_2h,89,Third,884,Nguyen2020
+25,cercariae_count_2h,98,Third,304,Nguyen2020
+25,cercariae_count_2h,108,Third,280,Nguyen2020
+25,cercariae_count_2h,114,Third,0,Nguyen2020
+25,cercariae_count_2h,125,Third,1116,Nguyen2020
+29,cercariae_count_2h,3,Third,0,Nguyen2020
+29,cercariae_count_2h,8,Third,0,Nguyen2020
+29,cercariae_count_2h,47,Third,0,Nguyen2020
+29,cercariae_count_2h,64,Third,4,Nguyen2020
+29,cercariae_count_2h,65,Third,112,Nguyen2020
+29,cercariae_count_2h,85,Third,0,Nguyen2020
+29,cercariae_count_2h,110,Third,940,Nguyen2020
+29,cercariae_count_2h,117,Third,100,Nguyen2020
+29,cercariae_count_2h,120,Third,516,Nguyen2020
+29,cercariae_count_2h,131,Third,56,Nguyen2020
+29,cercariae_count_2h,134,Third,44,Nguyen2020
+29,cercariae_count_2h,143,Third,532,Nguyen2020
+33,cercariae_count_2h,36,Third,76,Nguyen2020
+33,cercariae_count_2h,55,Third,0,Nguyen2020
+33,cercariae_count_2h,57,Third,0,Nguyen2020
+33,cercariae_count_2h,70,Third,252,Nguyen2020
+33,cercariae_count_2h,72,Third,0,Nguyen2020
+33,cercariae_count_2h,102,Third,32,Nguyen2020
+33,cercariae_count_2h,116,Third,292,Nguyen2020
+33,cercariae_count_2h,123,Third,0,Nguyen2020
+33,cercariae_count_2h,127,Third,328,Nguyen2020
+33,cercariae_count_2h,130,Third,96,Nguyen2020
+33,cercariae_count_2h,142,Third,180,Nguyen2020
+33,cercariae_count_2h,148,Third,0,Nguyen2020
+37,cercariae_count_2h,6,Third,0,Nguyen2020
+37,cercariae_count_2h,9,Third,0,Nguyen2020
+37,cercariae_count_2h,18,Third,0,Nguyen2020
+37,cercariae_count_2h,28,Third,60,Nguyen2020
+37,cercariae_count_2h,31,Third,0,Nguyen2020
+37,cercariae_count_2h,62,Third,52,Nguyen2020
+37,cercariae_count_2h,73,Third,0,Nguyen2020
+37,cercariae_count_2h,81,Third,92,Nguyen2020
+37,cercariae_count_2h,92,Third,32,Nguyen2020
+37,cercariae_count_2h,103,Third,0,Nguyen2020
+37,cercariae_count_2h,136,Third,52,Nguyen2020
+37,cercariae_count_2h,150,Third,152,Nguyen2020

@@ -1,0 +1,34 @@
+#---
+#profile: tabular-data-package
+#name: snail_mortality
+#title: Temperature-specific mortality of snails
+#source: Foster, R. The Effect of Temperature on the Development of Schistosoma Mansoni
+#  Sambon 1907 in the Intermediate Host. J Trop Med Hyg 67, 289-292 (1964).
+#path: https://github.com/pboesu/schistosomiasis
+#fields:
+#- name: temperature
+#  type: number
+#- name: value
+#  type: number
+#- name: n_total
+#  type: number
+#- name: infected
+#  type: boolean
+#- name: variable
+#  type: string
+#- name: source
+#  type: string
+#--- 
+temperature,value,n_total,infected,variable,source
+22.85,0.33,28,TRUE,mortality_60d,Foster1964
+24.01,0.5,28,TRUE,mortality_60d,Foster1964
+26.26,0.79,28,TRUE,mortality_60d,Foster1964
+28.07,0.89,28,TRUE,mortality_60d,Foster1964
+30.04,0.99,28,TRUE,mortality_60d,Foster1964
+31.75,0.99,28,TRUE,mortality_60d,Foster1964
+22.85,0.17,28,FALSE,mortality_60d,Foster1964
+24.01,0.18,28,FALSE,mortality_60d,Foster1964
+26.26,0.21,28,FALSE,mortality_60d,Foster1964
+28.07,0.4,28,FALSE,mortality_60d,Foster1964
+30.04,0.99,28,FALSE,mortality_60d,Foster1964
+31.75,0.99,28,FALSE,mortality_60d,Foster1964

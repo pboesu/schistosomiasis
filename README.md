@@ -2,7 +2,7 @@
 
 This repository contains data and code for the manuscript 
 
-*"Interventions can shift the thermal optimum for disease: Evidence from human schistosomiasis"*    
+*"Interventions can shift the thermal optimum for parasitic disease transmission"*    
 by K.H. Nguyen<sup>1*</sup>, P.H. Boersch-Supan<sup>2*</sup>, R.B. Hartman, S.Y. Mendiola, V.J. Harwood, D.J. Civitello, J.R. Rohr (2021)  
 
 Corresponding authors:    

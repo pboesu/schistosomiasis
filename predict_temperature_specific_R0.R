@@ -1,5 +1,5 @@
 # Example code to predict temperature-specific R0 curves for schistosomiasis with and without snail control
-# Supplement to "Interventions can shift the thermal optimum for disease: Evidence from human schistosomiasis" by K.H. Nguyen, P.H. Boersch-Supan, V.J. Harwood, J.R. Rohr (2020)
+# Supplement to "Interventions can shift the thermal optimum for parasitic disease transmission" by K.H. Nguyen, P.H. Boersch-Supan, R.B. Hartman, S.Y. Mendiola, V.J. Harwood, D.J. Civitello, J.R. Rohr (2021)
 # https://github.com/pboesu/schistosomiasis
 
 library(dplyr)
@@ -45,6 +45,6 @@ for (i in 1:nrow(clean_parameters_wide)){ #for each row
 }
 
 #plot normalised R0 curves
-plot(R_0_temp_no_control/max(R_0_temp_no_control) ~ clean_parameters_wide_no_control$temperature, type = 'l', main='', xlab='Temperature (Â°C)', ylab = latex2exp::TeX('R_{0}/max(R_{0})'), lwd = 2)
+plot(R_0_temp_no_control/max(R_0_temp_no_control) ~ clean_parameters_wide_no_control$temperature, type = 'l', main='', xlab='Temperature (°C)', ylab = latex2exp::TeX('R_{0}/max(R_{0})'), lwd = 2)
 lines(R_0_temp_snail_control/max(R_0_temp_snail_control) ~ clean_parameters_wide$temperature, type = 'l', col = 'darkgreen',lty = 1, lwd = 2)
 legend('topright', lwd = c(2,2), col = c('black','darkgreen'), legend = c('no control','snail control'), bty = 'n', cex = 0.8)

@@ -3,7 +3,7 @@
 #name: shedding
 #title: Temperature-specific shedding success of Schistosoma mansoni cercaria from
 #  Biomphalaria glabrata snails
-#author: K.H. Nguyen, P.H. Boersch-Supan, V.J. Harwood, J.R. Rohr
+#author: K.H. Nguyen, P.H. Boersch-Supan, R.B. Hartman, S.Y. Mendiola, V.J. Harwood, D.J. Civitello, J.R. Rohr
 #path: https://github.com/pboesu/schistosomiasis
 #fields:
 #- name: temperature

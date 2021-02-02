@@ -4,7 +4,7 @@
 #title: Temperature-specific observations of various Schistosoma mansoni and Biomphalaria
 #  traits
 #path: https://github.com/pboesu/schistosomiasis
-#author: K.H. Nguyen, P.H. Boersch-Supan, V.J. Harwood, J.R. Rohr
+#author: K.H. Nguyen, P.H. Boersch-Supan, R.B. Hartman, S.Y. Mendiola, V.J. Harwood, D.J. Civitello, J.R. Rohr
 #fields:
 #- name: temperature
 #  type: number

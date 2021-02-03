@@ -4,6 +4,8 @@
 
 library(dplyr)
 library(readr)
+library(ggplot2)
+library(tidyr)
 
 #implementation of the R_0 function from Gao, S., Liu, Y., Luo, Y. & Xie, D. Control problems of a mathematical model for schistosomiasis transmission dynamics. Nonlinear Dynamics 63, 503-512, doi:10.1007/s11071-010-9818-z (2010).
 gao_R_0 <- function(params){
@@ -21,8 +23,28 @@ gao_R_0 <- function(params){
   })
 }
 
-#read in predicted thermal performance curves and constants.
-clean_parameters_wide <- read_rds('data/clean_parameters_wide.rds')
+#read in predicted thermal performance curves
+clean_parameters_long <- read_csv('data/trait_predictions.csv', comment = "#")
+
+#plot predicted thermal performance curves (simplified version of Figure 2)
+ggplot(clean_parameters_long, aes(x = temperature, y = lci)) +
+  geom_line(lty=3) +
+  geom_line(aes(x = temperature, y = uci), lty=3) +
+  facet_wrap(~ variable, scales = 'free_y') +
+  geom_line(aes(x = temperature, y = value), col = 'red') +
+  ylab("1/day") +
+  theme_classic()
+
+#reshape data to wide format and add temperature-invariant parameters
+clean_parameters_wide <- clean_parameters_long %>%
+  select(-uci, -lci, -parameter_type, -units) %>% 
+  tidyr::pivot_wider(values_from = value, names_from = variable) %>%
+  mutate(beta_1 = 4.06e-09, #Temperature-invariant parameters from Gao et al. 2010 Table 1
+         delta_1 = 0.0039,
+         k = 300,
+         Lambda_1 = 8000,
+         M_0 = 1e+06,
+         mu_1 = 3.84e-05)
 
 #set control parameters (additional mortality on snails and cercaria; human treatment rate) to zero
 clean_parameters_wide %>% mutate(eta = 0,
@@ -44,7 +66,7 @@ for (i in 1:nrow(clean_parameters_wide)){ #for each row
   R_0_temp_snail_control[i] <- gao_R_0(clean_parameters_wide_snail_control[i, ]) #apply the R_0 function to that row
 }
 
-#plot normalised R0 curves
+#plot normalised R0 curves (simplified version of Figure 3A)
 plot(R_0_temp_no_control/max(R_0_temp_no_control) ~ clean_parameters_wide_no_control$temperature, type = 'l', main='', xlab='Temperature (°C)', ylab = latex2exp::TeX('R_{0}/max(R_{0})'), lwd = 2)
 lines(R_0_temp_snail_control/max(R_0_temp_snail_control) ~ clean_parameters_wide$temperature, type = 'l', col = 'darkgreen',lty = 1, lwd = 2)
 legend('topright', lwd = c(2,2), col = c('black','darkgreen'), legend = c('no control','snail control'), bty = 'n', cex = 0.8)

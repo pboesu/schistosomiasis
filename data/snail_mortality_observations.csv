@@ -1,10 +1,14 @@
 #---
 #profile: tabular-data-package
 #name: snail_mortality
-#title: Temperature-specific mortality of snails
+#manuscript_title: Interventions can shift the thermal optimum for parasitic disease
+#  transmission
+#dataset_title: Temperature-specific mortality of Biomphalaria snails
+#author: K.H. Nguyen, P.H. Boersch-Supan, R.B. Hartman, S.Y. Mendiola, V.J. Harwood,
+#  D.J. Civitello, J.R. Rohr
 #source: Foster, R. The Effect of Temperature on the Development of Schistosoma Mansoni
 #  Sambon 1907 in the Intermediate Host. J Trop Med Hyg 67, 289-292 (1964).
-#path: https://github.com/pboesu/schistosomiasis
+#data_url: https://doi.org/10.5281/zenodo.4494270
 #fields:
 #- name: temperature
 #  type: number

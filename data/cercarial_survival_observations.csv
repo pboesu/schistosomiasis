@@ -1,11 +1,13 @@
 #---
 #profile: tabular-data-package
 #name: cercarial_survival
-#title: Temperature-specific survival of Schistosoma cercariae
+#manuscript_title: Interventions can shift the thermal optimum for parasitic disease
+#  transmission
+#dataset_title: Temperature-specific survival of Schistosoma cercariae
 #source: Lawson, J. R. & Wilson, R. A. The survival of the cercariae of Schistosoma
 #  mansoni in relation to water temperature and glycogen utilization. Parasitology
 #  81, 337-348, doi:10.1017/s0031182000056079 (1980)
-#path: https://github.com/pboesu/schistosomiasis
+#data_url: https://doi.org/10.5281/zenodo.4494270
 #fields:
 #- name: temperature
 #  type: number
